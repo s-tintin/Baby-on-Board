@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<display-name>MyApplication</display-name>
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Checkout</servlet-name>
+		<jsp-file>/checkout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/checkout</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Confirmation</servlet-name>
+		<jsp-file>/confirmation.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Confirmation</servlet-name>
+		<url-pattern>/confirmation</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<jsp-file>/logout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>transactionHistory</servlet-name>
+		<url-pattern>/transactionHistory</url-pattern>
+	</servlet-mapping>
+     <servlet>
+		<servlet-name>transactionHistory</servlet-name>
+		<jsp-file>/transactionHistory.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>userProfile</servlet-name>
+		<url-pattern>/userProfile</url-pattern>
+	</servlet-mapping>
+     <servlet>
+		<servlet-name>userProfile</servlet-name>
+		<jsp-file>/userProfile.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+</web-app>
